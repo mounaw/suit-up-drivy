@@ -1,0 +1,97 @@
+body
+{
+   background:url('route.gif') no-repeat;
+   background-size: 100%;
+}
+h1
+{
+  color: lightblue ;
+  width: 100%;
+  text-align: center;
+  font-size: 57px;
+  font-family: courier;
+}
+h2
+{
+  color: lightgrey ;
+  width: 100%;
+  text-align: center;
+  font-size: 37px;
+  font-family: courier;
+}
+    #shape
+    {
+    width:400px;
+    margin:0 auto;
+    padding:10px;
+	  background: transparent;
+    border: 5px  double rgb(113,113,240);
+    border-radius:20px;
+
+}
+#moncadre
+{
+  width:500px;
+  margin:0 auto;
+  padding:0px;
+  border: 5px black groove;
+  border-radius:10px;
+}
+#mondeuxiemecadre{
+  color: white;
+  width:500px;
+  margin:0 auto;
+  padding:0px;
+  border: 5px black groove;
+  border-radius:10px;
+}
+.form_car{
+text-align: center;
+margin-top: 10px ;
+width: 200px; /* On a indiqué une largeur (obligatoire) */
+margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+border: 1px solid black;
+text-align: justify;
+padding: 12px;
+margin-bottom: 30px;
+padding:3px;
+border:1px solid #F5C5C5;
+border-radius:5px;
+box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+.form_rental{
+  text-align: center;
+  margin-top: 10px ;
+  width: 200px; /* On a indiqué une largeur (obligatoire) */
+  margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+  border: 1px solid black;
+  text-align: justify;
+  padding: 12px;
+  margin-bottom: 30px;
+  padding:3px;
+  border:1px solid #F5C5C5;
+  border-radius:5px;
+  box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+div#car
+{
+  margin: 0 auto;
+  margin-bottom: 10px;
+  width: 100px;
+  border-radius:10px;
+}
+div#rental
+{
+  margin: 0 auto;
+        margin-bottom: 5px;
+        width: 100px;
+}
+compute{
+   display: block;
+   display: inline-block;
+}
+.design_button{
+  background: url("compute.png") no-repeat;
+
+}
