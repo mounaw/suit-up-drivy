@@ -1,6 +1,22 @@
 /*global Mustache */
 'use strict';
 
+//list of cars
+var cars = [{
+  'id': 'p306',
+  'vehicule': 'peugeot 306',
+  'pricePerDay': 20,
+  'pricePerKm': 0.10
+}, {
+  'id': 'rr-sport',
+  'pricePerDay': 60,
+  'pricePerKm': 0.30
+}, {
+  'id': 'p-boxster',
+  'pricePerDay': 100,
+  'pricePerKm': 0.45
+}];
+
 var DRIVY = DRIVY || {};
 
 (function starter () {
@@ -30,3 +46,14 @@ var DRIVY = DRIVY || {};
     return;
   });
 }());
+/*function AssocierImages(){
+   if(car.id=="p306")
+     <html:img page="car1.png" border="0" />
+
+   else if(car.id=="rr-sport")
+     <html:img page="car2.png" border="0" />
+
+   else
+    <html:img page="car3.png" border="0" />
+  }
+*/

@@ -1,43 +1,31 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
-    
   <link rel="stylesheet" href="stylesheet.css" />
-
-
   <title>CSS/HTML Workshop with Drivy</title>
-  
 <style type="text/css">
-
-    #shape 
-    {
-    width:400px;
-    margin:0 auto;
-    padding:10px;
-    
-    }
 </style>
-
   </head>
   <body>
-  
-
-   <h1> DRIVY </h1>
-  
-     <div id="shape">
-
+   <h1> D R I V Y </h1>
+   <h2> Choose Your Car !</h2>
+    <div id="moncadre">
     <div id="car">
-      <input class="model" type="text" placeholder="Car model"/>
-      <input class="price-by-day" type="number" placeholder="Price by day"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
+      <input class="form_car model" type="text" placeholder="Car model"/>
+      <input class="form_car price-by-day" type="number" placeholder="Price by day"/>
+      <input class="form_car price-by-km" type="number" placeholder="Price by km"/>
     </div>
     <div id="rental">
-      <input class="begin" type="date" placeholder="Rental begin date"/>
-      <input class="end" type="date" placeholder="Rental end date"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
+      <input class="form_rental begin" type="date" placeholder="Rental begin date" color:black/>
+      <input class="form_rental end" type="date" placeholder="Rental end date"/>
+      <input class="form_rental distance" type="number" placeholder="Distance in km"/>
+      <input class="form_rental option" type="checkbox" placeholder="Deductible option"/>
     </div>
     <button id="compute">Compute</button>
+    </div>
+    <div id="mondeuxiemecadre">
     <div id="actors"></div>
     <script id="template" type="x-tmpl-mustache">
       {{#actors}}
@@ -52,6 +40,6 @@
     <script src="drivy.js"></script>
     <script src="index.js"></script>
     </div>
-
+    </div>
   </body>
 </html>
